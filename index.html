@@ -1,0 +1,67 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arindam Deb | Electrical Engineering Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Arindam Deb</h1>
+        <p>B.Tech Electrical Engineering | Tripura Institute of Technology | 4th Semester</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="card">
+        <h2>About Me</h2>
+        <p>I am a passionate Electrical Engineering undergraduate student from Tripura Institute of Technology, currently in 4th semester. I have a keen interest in power systems, electronics, and practical implementation of engineering concepts. Apart from academics, I explore embedded systems, programming, and like to stay updated with new technologies.</p>
+    </section>
+
+    <section id="skills" class="card">
+        <h2>Skills</h2>
+        <ul>
+            <li>Electrical Circuit Analysis</li>
+            <li>Embedded Systems (ESP32, Arduino)</li>
+            <li>C, C++, Python (beginner)</li>
+            <li>Basic HTML, CSS, JavaScript</li>
+            <li>PCB Design (beginner)</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="card">
+        <h2>Projects</h2>
+        <ul>
+            <li>Light Intensity Control using LDR and ESP32</li>
+            <li>Basic Calculator using C++</li>
+            <li>Simple LED Blinking on ESP32 using PlatformIO</li>
+            <li>Pet Care App (Hackathon project)</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="card">
+        <h2>Contact Me</h2>
+        <form onsubmit="submitForm(event)">
+            <label>Name:</label><br>
+            <input type="text" id="name" required><br><br>
+            <label>Message:</label><br>
+            <textarea id="message" rows="4" required></textarea><br><br>
+            <button class="btn" type="submit">Send</button>
+        </form>
+        <p id="confirmation"></p>
+    </section>
+
+    <footer>
+        &copy; 2025 Arindam Deb. All Rights Reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
